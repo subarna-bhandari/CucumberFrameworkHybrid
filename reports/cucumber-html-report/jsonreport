@@ -1,0 +1,324 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Make My Trip login Test Scenario",
+        "description": "",
+        "id": "make-my-trip-login;make-my-trip-login-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4146702700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch make my trip application",
+            "match": {
+              "location": "loginstepdefinition.launch_make_my_trip_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login page is opened",
+            "match": {
+              "location": "loginstepdefinition.login_page_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45482100,
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat com.pages.makemytripadmin.login(makemytripadmin.java:35)\r\n\tat com.stepdefinition.loginstepdefinition.enters_and(loginstepdefinition.java:27)\r\n\tat ✽.Then enters \"hello123@hotmail.com\" and \"admin123\"(./src/test/resources/features/testcasephp.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "enters \"hello123@hotmail.com\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hello123@hotmail.com",
+                  "offset": 8
+                },
+                {
+                  "val": "admin123",
+                  "offset": 35
+                }
+              ],
+              "location": "loginstepdefinition.enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "quit the browser",
+            "match": {
+              "location": "loginstepdefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@tc_01_login"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Make My Trip login Test Scenario",
+        "description": "",
+        "id": "make-my-trip-login;make-my-trip-login-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1726789200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch make my trip application",
+            "match": {
+              "location": "loginstepdefinition.launch_make_my_trip_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login page is opened",
+            "match": {
+              "location": "loginstepdefinition.login_page_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1819700,
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat com.pages.makemytripadmin.login(makemytripadmin.java:35)\r\n\tat com.stepdefinition.loginstepdefinition.enters_and(loginstepdefinition.java:27)\r\n\tat ✽.Then enters \"samdon@hotmail.com\" and \"admin123\"(./src/test/resources/features/testcasephp.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "enters \"samdon@hotmail.com\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "samdon@hotmail.com",
+                  "offset": 8
+                },
+                {
+                  "val": "admin123",
+                  "offset": 33
+                }
+              ],
+              "location": "loginstepdefinition.enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "quit the browser",
+            "match": {
+              "location": "loginstepdefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@tc_01_login"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Make My Trip Signup Scenario",
+        "description": "",
+        "id": "make-my-trip-login;make-my-trip-signup-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1602159200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "open the browser",
+            "match": {
+              "location": "signupstepdefinition.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click on sign up button",
+            "match": {
+              "location": "signupstepdefinition.click_on_sign_up_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2624900,
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat com.pages.makemytripadminforsignup.login(makemytripadminforsignup.java:32)\r\n\tat com.stepdefinition.signupstepdefinition.type_and(signupstepdefinition.java:30)\r\n\tat ✽.Then type \"sampletest1@hotmail.com\" and \"admin123#\"(./src/test/resources/features/testcasephp.feature:20)\r\n",
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "type \"sampletest1@hotmail.com\" and \"admin123#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sampletest1@hotmail.com",
+                  "offset": 6
+                },
+                {
+                  "val": "admin123#",
+                  "offset": 36
+                }
+              ],
+              "location": "signupstepdefinition.type_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "close the webbrowser",
+            "match": {
+              "location": "signupstepdefinition.close_the_webbrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@tc_02_signup"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Make My Trip Signup Scenario",
+        "description": "",
+        "id": "make-my-trip-login;make-my-trip-signup-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1355432100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "open the browser",
+            "match": {
+              "location": "signupstepdefinition.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click on sign up button",
+            "match": {
+              "location": "signupstepdefinition.click_on_sign_up_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 841000,
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat com.pages.makemytripadminforsignup.login(makemytripadminforsignup.java:32)\r\n\tat com.stepdefinition.signupstepdefinition.type_and(signupstepdefinition.java:30)\r\n\tat ✽.Then type \"sampletest2@hotmail.com\" and \"admin123#\"(./src/test/resources/features/testcasephp.feature:20)\r\n",
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "type \"sampletest2@hotmail.com\" and \"admin123#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sampletest2@hotmail.com",
+                  "offset": 6
+                },
+                {
+                  "val": "admin123#",
+                  "offset": 36
+                }
+              ],
+              "location": "signupstepdefinition.type_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "close the webbrowser",
+            "match": {
+              "location": "signupstepdefinition.close_the_webbrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@tc_02_signup"
+          }
+        ]
+      }
+    ],
+    "name": "Make my trip login",
+    "description": "",
+    "id": "make-my-trip-login",
+    "keyword": "Feature",
+    "uri": "./src/test/resources/features/testcasephp.feature"
+  }
+]
